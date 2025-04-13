@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "PixelPlay Studios",
-    short_name: "PixelPlay",
+    name: "Chewy Bytes",
+    short_name: "Chewybytes",
     description: "Independent mobile game developer creating playful, engaging experiences",
     start_url: "/",
     display: "standalone",
@@ -11,12 +11,12 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#7c3aed",
     icons: [
       {
-        src: "/icon-192x192.png",
+        src: "/logo.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/icon-512x512.png",
+        src: "/logo.png",
         sizes: "512x512",
         type: "image/png",
       },
