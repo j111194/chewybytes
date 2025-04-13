@@ -77,7 +77,7 @@ export const games: GameData[] = [
     },
     heroVideo: {
       thumbnailSrc: "/placeholder.svg?height=720&width=1280",
-      videoSrc: "/DontPopbob.mp4",
+      videoSrc: "/placeholder-video.mp4",
       autoplay: true,
     },
     detailVideo: {
