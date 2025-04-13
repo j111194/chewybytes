@@ -67,15 +67,9 @@ export default function GameLayout({ children }: GameLayoutProps) {
             © {new Date().getFullYear()} PixelPlay Studios. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="text-white/70 font-medium hover:text-orange transition-colors">
-              Privacy
-            </Link>
-            <Link href="#" className="text-white/70 font-medium hover:text-orange transition-colors">
-              Terms
-            </Link>
-            <Link href="#" className="text-white/70 font-medium hover:text-orange transition-colors">
-              Contact
-            </Link>
+            <Link href="/privacy" className="text-white/70 font-medium hover:text-orange transition-colors">Privacy</Link>
+            <Link href="/terms" className="text-white/70 font-medium hover:text-orange transition-colors">Terms</Link>
+            <Link href="#contact" className="text-white/70 font-medium hover:text-orange transition-colors">Contact</Link>
           </div>
         </div>
       </footer>

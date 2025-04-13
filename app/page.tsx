@@ -139,7 +139,7 @@ export default function HomePage() {
                 <div className="relative w-[280px] h-[560px] rounded-[3rem] border-8 border-navy overflow-hidden shadow-smooth transform rotate-3 hover:rotate-0 transition-transform duration-300">
                   <div className="absolute inset-0 bg-navy/5 flex items-center justify-center">
                     {featuredGame.heroVideo && autoplayHeroVideo ? (
-                      <video autoPlay muted loop playsInline className="object-cover absolute inset-0 w-full h-full">
+                      <video autoPlay muted loop playsInline preload="auto" className="object-cover absolute inset-0 w-full h-full">
                         <source src={featuredGame.heroVideo.videoSrc} type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
@@ -439,15 +439,9 @@ export default function HomePage() {
             © {new Date().getFullYear()} PixelPlay Studios. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="text-white/70 font-medium hover:text-orange transition-colors">
-              Privacy
-            </Link>
-            <Link href="#" className="text-white/70 font-medium hover:text-orange transition-colors">
-              Terms
-            </Link>
-            <Link href="#" className="text-white/70 font-medium hover:text-orange transition-colors">
-              Contact
-            </Link>
+            <Link href="/privacy" className="text-white/70 font-medium hover:text-orange transition-colors">Privacy</Link>
+            <Link href="/terms" className="text-white/70 font-medium hover:text-orange transition-colors">Terms</Link>
+            <Link href="#contact" className="text-white/70 font-medium hover:text-orange transition-colors">Contact</Link>
           </div>
         </div>
       </footer>
