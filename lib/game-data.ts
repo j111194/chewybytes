@@ -181,7 +181,7 @@ export const games: GameData[] = [
     },
     heroVideo: {
       thumbnailSrc: "/dont-pop-bob/GooglePlay-Feature Graphic.png",
-      videoSrc: "/dont-pop-bob/DontPopBob.mp4",
+      videoSrc: "/dont-pop-bob/dontpopbob.mp4",
       autoplay: true,
     },
     detailVideo: {
