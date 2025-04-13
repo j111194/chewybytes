@@ -104,7 +104,7 @@ export default function HomePage() {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-navy leading-tight">
                   {featuredGame.title}
                 </h1>
-                <p className="text-xl text-navy/70">{featuredGame.description}</p>
+                <p className="text-xl text-navy/70">{featuredGame.shortDescription}</p>
 
                 {featuredGame.isAvailable ? (
                   <div className="flex flex-wrap gap-4">
