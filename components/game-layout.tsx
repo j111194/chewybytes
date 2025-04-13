@@ -35,9 +35,13 @@ export default function GameLayout({ children }: GameLayoutProps) {
       {/* Header */}
       <header className="sticky top-0 z-40 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
         <div className="container px-4 md:px-6 mx-auto max-w-6xl flex h-20 items-center justify-between py-4">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-xl bg-orange"></div>
-            <span className="text-xl font-extrabold text-navy">PixelPlay Studios</span>
+        <Link href="/" className="flex items-center gap-3">
+            <img
+              src="/logo.png" // or .png or whatever your file is
+              alt="Chewy Bytess Logo"
+              className="h-16 w-20000 rounded-xl object-contain"
+            />
+           <span className="text-xl font-extrabold text-navy"></span>
           </Link>
           <nav className="hidden lg:flex gap-8">
             <Link href="/" className="text-base font-semibold text-navy hover:text-orange transition-colors">

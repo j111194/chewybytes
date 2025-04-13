@@ -68,7 +68,7 @@ export const games: GameData[] = [
     showReviews: false,
     featuredOnHomepage: false,
     appIcon: "/dr-chop/appicon.png",
-    logo: "/placeholder.svg?height=120&width=120",
+    logo: "/dr-chop/logo.png",
     rating: "N/A",
     reviewCount: "10K+",
     storeLinks: {
@@ -119,28 +119,20 @@ export const games: GameData[] = [
     ],
     screenshots: [
       {
-        src: "/placeholder.svg?height=600&width=300",
+        src: "/dr-chop/1.png",
         alt: "Dr. Chop gameplay showing fruit slicing",
       },
       {
-        src: "/placeholder.svg?height=600&width=300",
+        src: "/dr-chop/2.png",
         alt: "Dr. Chop special power-up activation",
-      },
-      {
-        src: "/placeholder.svg?height=600&width=300",
-        alt: "Dr. Chop boss battle screen",
-      },
-      {
-        src: "/placeholder.svg?height=600&width=300",
-        alt: "Dr. Chop character customization screen",
       },
     ],
     videos: [
-      {
-        thumbnailSrc: "/placeholder.svg?height=720&width=1280",
-        videoSrc: "/placeholder-video.mp4",
-        title: "Dr. Chop Gameplay Trailer",
-      },
+  //    {
+  //      thumbnailSrc: "/placeholder.svg?height=720&width=1280",
+  //      videoSrc: "/placeholder-video.mp4",
+  //      title: "Dr. Chop Gameplay Trailer",
+  //    },
     ],
     reviews: [
       {
@@ -168,19 +160,19 @@ export const games: GameData[] = [
   },
   {
     id: "dont-pop-bob",
-    title: "Don't asdfasd asdf  Bob",
+    title: "Don't Pop Bob",
     slug: "dont-pop-bob",
     emoji: "🎈",
     category: "Casual Game",
     tag: "Casual",
-    shortDescription: "Guide Bob the balloon through a world of dangers!",
+    shortDescription: "Bounce, dodge, and soar in this addictive casual game where one wrong move could POP your progress!",
     description:
-      "asdofijlkjasdflkj lkasdf kljasd flkjasdfl jkenvironments filled with sharp objects and hazards. Tap and hold to float higher, release to descend, and navigate carefully to keep Bob intact!",
+      "Don’t Pop Bob is a whimsical, fast-paced game that puts you in control of Bob — a fearless little balloon with a big dream: to float freely through dangerous terrain filled with spikes, saws, lasers, and other tricky traps. Tap to rise, release to sink, and thread the needle through every obstacle in this beautifully simple yet challenging game. Perfect for quick sessions or long marathons!",
     isAvailable: true,
     showReviews: true,
     featuredOnHomepage: true,
     appIcon: "/dont-pop-bob/appicon.png",
-    logo: "/placeholder.svg?height=120&width=120",
+    logo: "/dont-pop-bob/appicon.png",
     rating: 4.9,
     reviewCount: "15K+",
     storeLinks: {
@@ -188,25 +180,25 @@ export const games: GameData[] = [
       googlePlay: "https://play.google.com/store/apps/details?id=com.chewybytes.dontpopbob&hl=en",
     },
     heroVideo: {
-      thumbnailSrc: "/placeholder.svg?height=720&width=1280",
-      videoSrc: "/dont-pop-bob/DontPopbob.mp4",
+      thumbnailSrc: "/dont-pop-bob/GooglePlay-Feature Graphic.png",
+      videoSrc: "/dont-pop-bob/DontPopBob.mp4",
       autoplay: true,
     },
     detailVideo: {
-      thumbnailSrc: "/placeholder.svg?height=720&width=1280",
+      thumbnailSrc: "/dont-pop-bob/GooglePlay-Feature Graphic.png",
       videoSrc: "/dont-pop-bob/DontPopBob_1920x1080_1.mp4",
       autoplay: false,
     },
     features: [
       {
-        title: "Simple Controls",
-        description: "Intuitive tap-and-hold mechanics that anyone can pick up in seconds.",
-        icon: "👆",
+        title: "Simple Yet Challenging Gameplay",
+        description: "Tap and Hold to Navigate Control Bob the Balloon with intuitive tap-and-hold mechanics. Dodge sharp obstacles and survive as long as possible in this endless casual game.",
+        icon: "🎮",
       },
       {
-        title: "asdfasdf asdf + Levels",
-        description: "Navigate through over 50 uniquely designed levels across 5 different worlds.",
-        icon: "🌈",
+        title: "Endless Adventure",
+        description: "Survive the Gauntlet Face a continuous stream of challenges with procedurally generated obstacles that keep every run fresh and unpredictable.",
+        icon: "🏆",
       },
       {
         title: "Character Skins",
@@ -214,19 +206,19 @@ export const games: GameData[] = [
         icon: "🎈",
       },
       {
-        title: "Physics-Based Gameplay",
-        description: "Realistic balloon physics make every playthrough a unique experience.",
-        icon: "🔄",
-      },
-      {
-        title: "Family Friendly",
-        description: "Suitable for all ages with no violence or inappropriate content.",
-        icon: "👨‍👩‍👧‍👦",
+        title: "Vibrant Visuals",
+        description: "Engaging Graphics Enjoy a visually appealing experience with colorful designs that make gameplay both fun and immersive.",
+        icon: "🎨",
       },
       {
         title: "Offline Play",
-        description: "No internet connection required - play anywhere, anytime!",
-        icon: "🔌",
+        description: "No Internet Required Play anytime, anywhere. No Wi-Fi? No problem! Don't Pop Bob is fully functional offline.",
+        icon: "📶",
+      },
+      {
+        title: "Family-Friendly Fun",
+        description: "Designed for players of all ages, offering a safe and enjoyable gaming experience without inappropriate content.",
+        icon: "👨‍👩‍👧‍👦",
       },
     ],
     screenshots: [

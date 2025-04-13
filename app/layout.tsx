@@ -11,7 +11,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "PixelPlay Studios - Mobile Game Developer",
+  title: "Chewy Bytes - Mobile Games",
   description: "Independent mobile game developer creating playful, engaging experiences that fit in your pocket.",
     generator: 'v0.dev'
 }
