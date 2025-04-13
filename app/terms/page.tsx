@@ -273,7 +273,7 @@ support@chewybytes.nl
       <footer className="w-full py-8 md:py-12 bg-navy text-white">
         <div className="container px-4 md:px-6 mx-auto max-w-6xl flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between">
           <p className="text-center text-white/70 md:text-left">
-            © {new Date().getFullYear()} PixelPlay Studios. All rights reserved.
+            © {new Date().getFullYear()} Chewy Bytes. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="text-white/70 font-medium hover:text-orange transition-colors">Privacy</Link>

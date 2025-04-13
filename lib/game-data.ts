@@ -73,7 +73,7 @@ export const games: GameData[] = [
     reviewCount: "10K+",
     storeLinks: {
       appStore: "https://apps.apple.com/us/app/dr-chop/id1234567890",
-      googlePlay: "https://play.google.com/store/apps/details?id=com.pixelplaystudios.drchop",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.chewybytes.drchop",
     },
     heroVideo: {
       thumbnailSrc: "/placeholder.svg?height=720&width=1280",

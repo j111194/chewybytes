@@ -108,9 +108,10 @@ export default function HomePage() {
 
                 {featuredGame.isAvailable ? (
                   <div className="flex flex-wrap gap-4">
-                    <Button className="btn-navy h-14 gap-2 px-6" asChild>
+                    <Button className="btn-navy h-14 gap-2 px-" asChild>
                       <Link href={featuredGame.storeLinks.appStore} target="_blank" rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" width="24" height="24" className="mr-2">
+                          
                           <path
                             fill="currentColor"
                             d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.79 1.18-.12 2.29-.84 3.46-.77 1.5.12 2.65.64 3.39 1.64-3.25 1.95-2.75 5.9.47 7.18-.57 1.82-1.71 3.59-3.4 5.13ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.26 2.01-1.16 4.07-3.74 4.25Z"
@@ -203,7 +204,7 @@ export default function HomePage() {
                           alt={`${game.title} app icon`}
                           width={120}
                           height={120}
-                          className="object-contain"
+                          className="object-contain rounded-xl"
                         />
                       ) : (
                         <div className="text-6xl">{game.emoji}</div>
@@ -436,7 +437,7 @@ export default function HomePage() {
       <footer className="w-full py-8 md:py-12 bg-navy text-white">
         <div className="container px-4 md:px-6 mx-auto max-w-6xl flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between">
           <p className="text-center text-white/70 md:text-left">
-            © {new Date().getFullYear()} PixelPlay Studios. All rights reserved.
+            © {new Date().getFullYear()} Chewy Bytes. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="text-white/70 font-medium hover:text-orange transition-colors">Privacy</Link>

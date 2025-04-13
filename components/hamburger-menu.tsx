@@ -31,7 +31,7 @@ export function HamburgerMenu({ items }: HamburgerMenuProps) {
           <div className="flex items-center justify-between p-6 border-b">
             <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-3">
               <div className="h-8 w-8 rounded-xl bg-orange"></div>
-              <span className="text-lg font-extrabold text-navy">PixelPlay Studios</span>
+              <span className="text-lg font-extrabold text-navy">Chewy Bytes</span>
             </Link>
             <button
               onClick={() => setIsOpen(false)}
